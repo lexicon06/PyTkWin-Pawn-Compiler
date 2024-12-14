@@ -159,7 +159,6 @@ if __name__ == "__main__":
     """Hello Pawn!"""
     root = tk.Tk()
     app = PawnCompilerApp(root)
-    current_dir = os.path.dirname(os.path.abspath(__file__)) 
-    icon_path = os.path.join(current_dir, "compiler.exe")
+    icon_path = os.path.join(app.directory, "compiler.exe")
     root.iconbitmap(icon_path)
     root.mainloop()
