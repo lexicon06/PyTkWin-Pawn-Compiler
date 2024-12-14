@@ -17,7 +17,7 @@
 1. Ensure you have Python installed. You can download it from [python.org](https://www.python.org/).
 2. Install the required libraries by running:
    ```sh
-   pip install tkinter pillow
+   pip install tkinter
    ```
 3. Clone this repository to your local machine:
    ```sh
