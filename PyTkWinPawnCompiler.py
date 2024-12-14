@@ -1,10 +1,13 @@
 """
+PyTkWin Pawn Compiler Beta v1.0 - 12/14/2024
+Made by Pablo Santillan
+
 
 PyTkWin Pawn Compiler is a versatile and user-friendly application designed for Windows environments. 
 Developed using Python and Tkinter, this tool serves as an efficient compiler and file manager specifically tailored for SourcePawn scripting. 
 The application allows users to seamlessly compile their SourcePawn scripts, sort files by various attributes, and open files directly in Visual Studio Code.
 
-By PabloSan
+
 """
 
 import os
@@ -13,11 +16,13 @@ from tkinter import messagebox, filedialog
 import tkinter as tk
 from datetime import datetime
 
+
+
 class PawnCompilerApp:
     def __init__(self, root):
         """Initialize the main application."""
         self.root = root
-        self.root.title("PyTkWin Pawn Compiler Beta v1.0")
+        self.root.title("Pawn Compiler Beta v1.0 @ PyTkWin")
         self.root.geometry("800x400")
 
         # Configuration file to save the directory path
@@ -110,7 +115,6 @@ class PawnCompilerApp:
         if selected_file:
             compiled_file = os.path.join(self.compiled_directory, selected_file.replace('.sp', '.smx'))
             if os.path.exists(compiled_file):
-                #TODO: Complete this feature.
                 response = messagebox.askyesno("File Exists", f"The file {compiled_file} already exists. Do you want to override it?")
                 if not response:
                     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -155,4 +159,7 @@ if __name__ == "__main__":
     """Hello Pawn!"""
     root = tk.Tk()
     app = PawnCompilerApp(root)
+    current_dir = os.path.dirname(os.path.abspath(__file__)) 
+    icon_path = os.path.join(current_dir, "compiler.exe")
+    root.iconbitmap(icon_path)
     root.mainloop()
