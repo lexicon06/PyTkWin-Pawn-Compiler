@@ -18,20 +18,20 @@
 2. Install the required libraries by running:
    ```sh
    pip install tkinter pillow
-```
+   ```
 3. Clone this repository to your local machine:
    ```sh
     git clone https://github.com/lexicon06/PyTkWin-Pawn-Compiler.git
-  ```
+   ```
 4. Navigate to the project directory:
-```sh
-cd PyTkWin-Pawn-Compiler
-```
+   ```sh
+   cd PyTkWin-Pawn-Compiler
+   ```
 
 5. Run the script:
-```sh
-python PyTkWinPawnCompiler.py
-```
+   ```sh
+   python PyTkWinPawnCompiler.py
+   ```
 
 On the first run, you will be prompted to select your SourcePawn scripting directory.
 
