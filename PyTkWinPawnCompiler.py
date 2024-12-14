@@ -110,6 +110,7 @@ class PawnCompilerApp:
         if selected_file:
             compiled_file = os.path.join(self.compiled_directory, selected_file.replace('.sp', '.smx'))
             if os.path.exists(compiled_file):
+                #TODO: Complete this feature.
                 response = messagebox.askyesno("File Exists", f"The file {compiled_file} already exists. Do you want to override it?")
                 if not response:
                     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
