@@ -16,6 +16,8 @@
 
 1. Ensure you have Python installed. You can download it from [python.org](https://www.python.org/).
 2. Install the required libraries by running:
+Note: Python 3.7 and above
+Tkinter is included by default with Python 3.7 and above
    ```sh
    pip install tkinter
    ```
