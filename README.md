@@ -19,8 +19,7 @@
    ```sh
    pip install tkinter
    ```
-   - Note: Python 3.7 and above
-Tkinter is included by default with Python 3.7 and above
+   - Note: Tkinter is included by default with Python 3.7 and above
 3. Clone this repository to your local machine:
    ```sh
     git clone https://github.com/lexicon06/PyTkWin-Pawn-Compiler.git
