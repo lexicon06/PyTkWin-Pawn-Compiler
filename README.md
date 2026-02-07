@@ -44,8 +44,8 @@ Change the SourcePawn scripting directory anytime using the "📂 Change Path" b
 # Author
 ## Pablo Santillan
 
-V1 Released on 12/14/2024.
-V2 Released on 2/7/2026.
+V1 Released on 12/14/2024. /
+V2 Released on 2/7/2026. /
 
 # License
 ## This project is licensed under the MIT License.
